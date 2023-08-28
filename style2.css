@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=MedievalSharp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-image: linear-gradient(68.15deg,rgb(69, 239, 202),rgb(17, 4, 29));
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1px;
+}
+
+.Logo_do_Marquis {
+    height: 72px;
+    
+}
+
+.menu-do-cabeçalho{
+    display: flex;
+    gap: 32px;
+    
+}
+.item-cabeçalho-menu {
+  color: rgb(164, 164, 171);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid whitesmoke;
+}
+
+.conteudo-primario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linha-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.linha-conteudo-titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: aliceblue;
+}
+
+.linha-conteudo-subtitulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 242, 242);
+    font-size: 24px;
+    font-weight: 400;
+}
+.btn{
+    width: 180px;
+    height: 60px;
+    padding: 16px 0px;
+    margin: none;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2f109e;
+    background: #5fda07;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #163302;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+
+}
+
+.cafe{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.tcs{
+    border-top: 0.4px solid greenyellow;
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.rdp{
+    padding: 24px;
+    border-top: 0.4px solid greenyellow;
+}
+
+.logo-torre{
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+   
+}
+
